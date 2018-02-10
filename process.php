@@ -2,7 +2,7 @@
 <?php 
 $server = "localhost";
 $username = "root";
-$password = "Ondadake361";
+$password = "root";
 $dbname = "userdata";
 
 
