@@ -2,7 +2,7 @@
 <?php 
 $server = "localhost";
 $username = "root";
-$password = "root";
+$password = "Ondadake361";
 $dbname = "userdata";
 
 
@@ -23,7 +23,7 @@ $sql = "INSERT INTO customer(first_name,last_name,email)
 
 
 if ($conn->query($sql) === TRUE) {
-    echo "New record created successfully";
+    echo "Thanks for subscribing. your details is now stored in our database. ";
 } else {
     echo "Error: info not stored";
 }
